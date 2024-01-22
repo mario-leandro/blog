@@ -14,7 +14,7 @@ export default function Header() {
                 <section className="search-bar">
                     <input type="text" placeholder="Pesquisar" />
                     <button type="submit">
-                        <Image src={lupa}></Image>
+                        <Image src={lupa} alt="icone de lupa"></Image>
                     </button>
                 </section>
 
