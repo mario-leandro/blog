@@ -1,5 +1,4 @@
 {
-  "homepage": "https://github.com/mario-leandro/blog.git",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -7,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "gh-pages -d build"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.0.4",
@@ -18,7 +16,6 @@
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.0.4",
-    "gh-pages": "^6.1.1"
+    "eslint-config-next": "14.0.4"
   }
 }
