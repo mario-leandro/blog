@@ -1,0 +1,108 @@
+@import "variables"
+
+main 
+    width: 100%
+    height: auto
+
+    .apresentation 
+        width: 100%
+        height: 400px
+        padding: 0 4rem
+        display: grid
+        grid-template-rows: 80px 200px
+        grid-column: auto
+        grid-row: auto
+        align-content: center
+        place-items: center
+
+        .title 
+            margin-bottom: .5rem
+            display: grid
+            place-items: center
+
+            h1 
+                color: $cor9
+                font-size: 2.5em
+                font-weight: 600
+
+        .text 
+            display: flex
+            flex-direction: column
+            justify-content: center
+
+            p 
+                color: $cor8
+                font-weight: 600
+                text-indent: 1.2rem
+
+    .publication 
+        width: 100%
+        height: auto
+        padding: 1rem 0
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        background: $cor2
+
+        .title 
+            width: 100%
+            height: 100px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+
+            h1 
+                color: $cor10
+                font-size: 2.5em
+                font-weight: 600 
+
+        .posts 
+            width: 100%
+            height: auto
+            display: flex
+            flex-flow: row wrap
+            justify-content: center
+            align-items: center
+
+            .card 
+                width: 700px
+                height: 200px
+                padding: 1em
+                background: $cor3
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                margin: .5em
+
+                .card-title 
+                    width: 100%
+                    display: flex
+                    flex-direction: row
+                    justify-content: space-between
+                    align-items: center
+
+                    a 
+                        color: $cor9
+                        font-size: 1.5em
+                        font-weight: 700
+                    
+                .card-description 
+                    width: 100%
+                    display: flex
+                    flex-direction: row
+                    justify-content: space-between
+                    align-items: center
+
+                    p 
+                        color: $cor8
+                        font-weight: 600
+                        text-indent: 1.2rem       
+
+                .card-data 
+                    width: 100%
+
+                    p 
+                        color: $cor8
+                        font-weight: 600
+                        text-align: center
