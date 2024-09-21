@@ -1,5 +1,5 @@
 import "@/styles/mainPost.sass";
-import typeText from "@/pages/database/type-text";
+import typeText from "@/database/type-text";
 
 export default function MainPost() {
   return (
