@@ -1,14 +1,14 @@
-import Header from "../subfaces/header"
-import MainLogin from "../subfaces/mainLogin"
-import Footer from "../subfaces/footer"
-import "@/css/globals.scss"
+import Header from "../../components/subfaces/header";
+import MainLogin from "../../components/subfaces/mainLogin";
+import Footer from "../../components/subfaces/footer";
+import "@/styles/globals.sass";
 
 export default function login() {
-    return (
-        <>
-            <Header />
-            <MainLogin />
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <Header />
+      <MainLogin />
+      <Footer />
+    </>
+  );
 }

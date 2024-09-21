@@ -1,0 +1,136 @@
+@import "variables"
+
+main 
+    width: 100%
+    min-height: 100%
+    background: $cor2
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+
+    .main-container
+        width: 100%
+        height: 100%
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+
+        .main-content
+            width: 100%
+            height: 100%
+            display: flex
+            flex-direction: column
+            justify-content: flex-start
+            align-items: center
+
+            .apresentation
+                width: 95%
+                min-height: 80dvh
+                padding: 1rem 0
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+
+                .title
+                    width: 100%
+                    height: auto
+                    margin-bottom: .5rem
+                    display: flex
+                    justify-content: center
+                    align-items: center
+
+                    h1
+                        color: $cor9
+                        font-size: 28px
+                        font-weight: 600
+
+                .text
+                    width: 100%
+                    height: auto
+                    display: flex
+                    justify-content: center
+                    align-items: center
+
+                    p
+                        font-size: 16px
+                        color: $cor8
+                        font-weight: 600
+
+            .publication 
+                width: 100%
+                min-height: 80dvh
+                padding: 1rem 0
+                display: flex
+                flex-direction: column
+                justify-content: flex-start
+                align-items: center
+                background: $cor3
+
+                .title 
+                    width: 100%
+                    height: 100px
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
+
+                    h1 
+                        color: $cor10
+                        font-size: 2.5em
+                        font-weight: 600 
+
+                .posts 
+                    width: 95%
+                    height: auto
+                    display: flex
+                    flex-flow: row wrap
+                    justify-content: center
+                    align-items: center
+
+                    .card 
+                        width: 500px
+                        min-height: 200px
+                        padding: 1em
+                        background: $cor2
+                        display: flex
+                        flex-direction: column
+                        justify-content: space-between
+                        align-items: center
+                        margin: .5em
+                        border-radius: 10px
+
+                        .card-title 
+                            width: 100%
+                            display: flex
+                            flex-direction: row
+                            justify-content: space-between
+                            align-items: center
+
+                            a 
+                                color: $cor9
+                                font-size: 18px
+                                font-weight: 700
+                            
+                        .card-description 
+                            width: 100%
+                            display: flex
+                            flex-direction: row
+                            justify-content: space-between
+                            align-items: center
+
+                            p 
+                                font-size: 14px
+                                color: $cor8
+                                font-weight: 600
+
+                        .card-data 
+                            width: 100%
+
+                            p 
+                                font-size: 14px
+                                color: $cor8
+                                font-weight: 600
+                                text-align: right

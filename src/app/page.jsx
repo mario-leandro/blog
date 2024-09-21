@@ -1,7 +1,7 @@
-import "@/css/globals.scss"
-import Footer from "@/pages/subfaces/footer"
-import Header from "@/pages/subfaces/header"
-import Main from "@/pages/subfaces/main"
+import "@/styles/globals.sass";
+import Header from "@/components/subfaces/header";
+import Main from "@/components/subfaces/main";
+import Footer from "@/components/subfaces/footer";
 
 export default function Home() {
   return (
@@ -10,5 +10,5 @@ export default function Home() {
       <Main />
       <Footer />
     </>
-  )
+  );
 }

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import "@/css/mainCadastro.scss"
+import "@/styles/mainCadastro.sass"
 
 export default function MainCadastro() {
     return (

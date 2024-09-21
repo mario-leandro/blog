@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google"
-import "@/css/globals.scss"
+import "@/styles/globals.sass"
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: "Blog",
@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-BR">
       <body className={inter.className}>{children}</body>
     </html>
   )

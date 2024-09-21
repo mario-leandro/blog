@@ -1,5 +1,5 @@
 import Link from "next/link"
-import "@/css/mainLogin.scss"
+import "@/styles/mainLogin.sass"
 
 export default function MainLogin() {
     return (
