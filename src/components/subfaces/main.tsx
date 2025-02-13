@@ -35,19 +35,19 @@ export default function Main() {
 
             <section className="posts">
               {database.map((i) => (
-                <div className="card" key={i.id}>
+                <Link href={`/posts/${i.id}`} className="card" key={i.id}>
                   <div className="card-title">
-                    <Link href={`../posts/${i.title}`}>{i.title}</Link>
+                    <h1>{i.title}</h1>
                   </div>
 
                   <div className="card-description">
-                    <p>{i.description}</p>
+                    <p>{i.question}</p>
                   </div>
 
                   <div className="card-data">
                     <p>{i.data}</p>
                   </div>
-                </div>
+                </Link>
               ))}
             </section>
           </section>

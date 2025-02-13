@@ -1,10 +1,8 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
-import lupa from "@/icons/lupa.svg";
 import "@/styles/header.sass";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
@@ -27,7 +25,7 @@ export default function Header() {
             <section className="search-bar">
               <input type="text" placeholder="Pesquisar" />
               <button type="submit">
-                <Image src={lupa} alt="icone de lupa"></Image>
+                <FontAwesomeIcon icon={faMagnifyingGlass} style={{color: "#66fcf1",}} />
               </button>
             </section>
 
@@ -79,7 +77,7 @@ export default function Header() {
               <section className="search-bar">
                 <input type="text" placeholder="Pesquisar" />
                 <button type="submit">
-                  <Image src={lupa} alt="icone de lupa"></Image>
+                  <FontAwesomeIcon icon={faMagnifyingGlass} style={{color: "#66fcf1",}} />
                 </button>
               </section>
             </div>
